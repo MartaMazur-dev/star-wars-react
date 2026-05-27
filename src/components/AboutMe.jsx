@@ -9,6 +9,7 @@ const AboutMe = () => {
         }
     });
 
+
     useEffect(() => {
         if (!hero) {
             fetch(`${baseUrl}/v1/peoples/1`)
@@ -51,6 +52,8 @@ const AboutMe = () => {
         </>
     );
 
+
 }
+
 
 export default AboutMe;
